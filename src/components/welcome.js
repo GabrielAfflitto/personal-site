@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import linkedin from '../images/linkedin.png'
 import email from '../images/email.png'
 import github from '../images/github.png'
+import Projects from './projects'
 
 class Welcome extends Component {
   render() {
@@ -14,11 +15,12 @@ class Welcome extends Component {
           learned the technical skills to be a valuable contributor to the technology industry.
           I have pushed the boundaries of what I thought was possible of myself and I look forward to continuing that drive wherever I go.
         </div>
-        <ul>
+        <ul className="links">
           <li className="linked"><a href={'https://www.linkedin.com/in/gabeafflitto'} target='_blank'><img src={linkedin} className="icon"></img></a></li>
           <li className="github"><a href={'https://github.com/GabrielAfflitto'} target='_blank'><img src={github} className="icon"></img></a></li>
           <li className="email"><a href={'mailto:gafflitto92@gmail.com?subject=Hey There!'}><img src={email} className="icon"></img></a></li>
         </ul>
+        <Projects />
       </div>
     )
   }
