@@ -3,3 +3,57 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#gabe {
+  border-radius: 50%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.intro {
+  font-size: 1.56rem;
+  margin: 1.78rem 0 1.424rem 0;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-intro {
+  width: 600px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  /* The image used */
+  background-image: url("./images/willian-justen-de-vasconcellos-595793-unsplash.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.turing {
+  text-decoration: none;
+}
+
+.turing:link {
+  color: blue
+}
+
+.turing:hover {
+  color: purple;
+  text-decoration: underline;
+}
