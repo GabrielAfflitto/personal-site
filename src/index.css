@@ -16,7 +16,7 @@ body {
 }
 
 .intro {
-  font-size: 1.56rem;
+  font-size: 1.50rem;
   margin: 1.78rem 0 1.424rem 0;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 }
@@ -26,6 +26,8 @@ body {
 }
 
 .links {
+  width: 200px;
+  margin-left: 120px;
   list-style: none;
   display: flex;
   justify-content: space-between;
