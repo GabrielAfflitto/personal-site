@@ -8,7 +8,7 @@ class Projects extends Component {
       <div>
         <h1>Projects</h1>
         <div>
-          <img src={musicbuddy} className="thumbnail"></img>
+          <img src={musicbuddy} className="thumbnail" height='300'></img>
           <div className="row">
             <div className="col-md">
               <h3>Overview</h3>
